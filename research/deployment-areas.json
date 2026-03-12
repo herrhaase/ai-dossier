@@ -1,0 +1,1011 @@
+{
+  "meta": {
+    "title": "Dossier Infrastructure Deployment Research",
+    "date": "2026-03-12",
+    "description": "Comprehensive research on alternative domains, industries, and risk areas where the ai-dossier scoring/briefing/digest infrastructure could be deployed beyond AI safety governance.",
+    "current_deployment": "AI Safety & Governance (aisafety.fyi)",
+    "infrastructure_capabilities": [
+      "Daily curated digest with scored/prioritized stories",
+      "Lead stories with detailed briefings and ticker items",
+      "Composite scoring (0-10), priority classification, sentiment analysis, intensity rating",
+      "Structured JSON output feeding web UI",
+      "Tag-based taxonomy and cross-referencing",
+      "Editorial voice with contextual quips"
+    ]
+  },
+  "categories": [
+    {
+      "id": "existential-catastrophic-risk",
+      "name": "Existential & Catastrophic Risk Monitoring",
+      "description": "Tracking low-probability, high-consequence threats to civilization. These areas share the AI safety dossier's core DNA: complex technical topics that demand expert curation for a policy audience.",
+      "domains": [
+        {
+          "name": "Pandemic & Biosecurity Risk",
+          "slug": "pandemic-biosecurity",
+          "fit_score": 9.5,
+          "rationale": "Pandemic preparedness is the closest analog to AI safety monitoring. Both involve tracking technical developments (gain-of-function research, novel pathogen detection), regulatory responses (WHO IHR amendments, national biosecurity policy), and emerging threats in real-time. COVID-19 demonstrated catastrophic failure in early-warning information synthesis.",
+          "audience": [
+            "Public health officials and epidemiologists",
+            "Biosecurity researchers (Johns Hopkins CHS, NTI Bio, Georgetown CSET)",
+            "National security professionals",
+            "Pandemic preparedness NGOs",
+            "Pharmaceutical and biotech executives",
+            "Science journalists"
+          ],
+          "source_types": [
+            "WHO Disease Outbreak News and PHEIC declarations",
+            "ProMED-mail and GPHIN alerts",
+            "Preprint servers (bioRxiv, medRxiv) for novel pathogen research",
+            "GISAID and GenBank for genomic surveillance data",
+            "National CDC equivalents (US CDC, ECDC, China CDC)",
+            "Dual-use research of concern (DURC) publications",
+            "Biosecurity policy journals (Health Security, Biosecurity and Bioterrorism)",
+            "Congressional/parliamentary biosecurity hearings",
+            "BARDA and CEPI funding announcements"
+          ],
+          "tag_taxonomy": [
+            "novel-pathogen", "gain-of-function", "pandemic-preparedness", "biosurveillance",
+            "vaccine-development", "antimicrobial-resistance", "bioweapons", "dual-use",
+            "who-policy", "genomic-surveillance", "zoonotic-spillover", "lab-safety",
+            "stockpile", "mcm-development", "global-health-security"
+          ],
+          "value_proposition": "Information about pandemic risks is scattered across epidemiological databases, preprint servers, regulatory filings, and policy announcements. A scored daily digest would have been invaluable in January 2020 -- and will be for the next pandemic. The scoring system can flag anomalous outbreak patterns before they reach mainstream media.",
+          "market_validation": {
+            "existing_services": [
+              "ProMED-mail (free, volunteer-run, email-based -- no scoring/prioritization)",
+              "GPHIN (Canadian government, restricted access)",
+              "Metabiota (acquired by Ginkgo Bioworks, enterprise-focused)",
+              "BlueDot (AI-powered, raised $9.4M, detected COVID early)",
+              "Pandemic Tracking Collective (informal)"
+            ],
+            "gap": "No public-facing, daily scored digest that synthesizes across technical, policy, and geopolitical dimensions the way the AI dossier does for AI safety."
+          },
+          "example_stories": [
+            {
+              "title": "H5N1 Mammalian Adaptation: Three Mutations Away From Airborne Transmission",
+              "priority": "critical",
+              "composite_score": 9.2,
+              "tags": ["novel-pathogen", "zoonotic-spillover", "gain-of-function"]
+            },
+            {
+              "title": "WHO Member States Deadlock on Pandemic Treaty Pathogen Access Provisions",
+              "priority": "high",
+              "composite_score": 7.8,
+              "tags": ["who-policy", "pandemic-preparedness", "global-health-security"]
+            }
+          ]
+        },
+        {
+          "name": "Nuclear Risk & Strategic Stability",
+          "slug": "nuclear-risk",
+          "fit_score": 8.5,
+          "rationale": "Nuclear risk monitoring requires tracking arms control treaty status, modernization programs, geopolitical flashpoints, and technical developments (hypersonics, AI-enabled command and control). The field has a dedicated expert community but lacks a modern, scored daily digest format.",
+          "audience": [
+            "Arms control policy professionals",
+            "Defense and national security analysts",
+            "Nuclear security researchers (NTI, SIPRI, FAS, CSIS)",
+            "Government officials in foreign affairs and defense",
+            "Disarmament NGOs (ICAN, Ploughshares Fund)",
+            "Strategic studies academics"
+          ],
+          "source_types": [
+            "SIPRI databases and yearbooks",
+            "Federation of American Scientists (FAS) nuclear notebook",
+            "Arms Control Association updates",
+            "IAEA safeguards reports and Board of Governors statements",
+            "Nuclear Threat Initiative (NTI) analyses",
+            "Defense ministry statements and budget documents",
+            "Satellite imagery analysis (open-source intelligence)",
+            "Congressional Research Service reports",
+            "Bulletin of the Atomic Scientists"
+          ],
+          "tag_taxonomy": [
+            "arms-control", "nonproliferation", "modernization", "hypersonics",
+            "nuclear-posture", "deterrence", "first-strike", "missile-defense",
+            "new-start", "ctbt", "fissile-material", "tactical-nuclear",
+            "ai-nc3", "escalation-risk", "doomsday-clock"
+          ],
+          "value_proposition": "The Bulletin of the Atomic Scientists' Doomsday Clock is annual -- the world needs daily granularity. With New START expiration, modernization programs across all nuclear states, and AI integration into command-and-control, the nuclear risk landscape is more dynamic than at any point since the Cold War.",
+          "market_validation": {
+            "existing_services": [
+              "Bulletin of the Atomic Scientists (long-form, not daily digest)",
+              "Arms Control Wonk podcast/blog (expert but infrequent)",
+              "NTI analysis pieces (periodic, not daily)",
+              "SIPRI yearbook (annual)"
+            ],
+            "gap": "No daily scored intelligence product synthesizing across arms control, geopolitical, and technical dimensions."
+          }
+        },
+        {
+          "name": "Climate Tipping Points & Extreme Events",
+          "slug": "climate-tipping",
+          "fit_score": 8.0,
+          "rationale": "Climate change operates on long timescales but its policy, economic, and extreme-event manifestations produce daily newsworthy developments. A tipping-points-focused dossier would track both the science (ice sheet dynamics, AMOC stability, permafrost methane) and the cascading socioeconomic consequences.",
+          "audience": [
+            "Climate scientists and Earth system researchers",
+            "Institutional investors and ESG analysts",
+            "Reinsurance and catastrophe modeling professionals",
+            "Government climate adaptation planners",
+            "Climate litigation attorneys",
+            "Sustainability officers at major corporations"
+          ],
+          "source_types": [
+            "Nature Climate Change, Science, PNAS climate publications",
+            "IPCC working group reports and special reports",
+            "National weather services and NOAA/Copernicus data",
+            "Climate litigation databases (Sabin Center, LSE Grantham)",
+            "Carbon Tracker and climate finance reports",
+            "UNFCCC negotiation updates",
+            "Insurance industry loss reports (Swiss Re, Munich Re)",
+            "Satellite and remote sensing data (ice sheet, deforestation)"
+          ],
+          "tag_taxonomy": [
+            "tipping-point", "amoc", "ice-sheet", "permafrost", "coral-bleaching",
+            "extreme-weather", "attribution-science", "carbon-budget", "climate-litigation",
+            "net-zero", "adaptation", "loss-and-damage", "climate-finance",
+            "fossil-fuel-phase-out", "renewable-transition"
+          ],
+          "value_proposition": "Climate risk is increasingly priced into financial markets, insurance, and sovereign debt. A daily scored digest connecting scientific observations to financial and policy implications fills a gap between academic climate science and market-facing risk analysis."
+        },
+        {
+          "name": "Asteroid & Near-Earth Object Monitoring",
+          "slug": "asteroid-neo",
+          "fit_score": 4.0,
+          "rationale": "Low daily throughput of genuinely newsworthy events limits digest utility. Better suited to alert-based rather than daily digest format. Could work as a sub-section within a broader existential risk dossier.",
+          "audience": ["Planetary defense researchers", "Space agencies", "Science communicators"],
+          "note": "Better as a component of a combined existential risk dossier than standalone."
+        }
+      ]
+    },
+    {
+      "id": "geopolitical-democratic-risk",
+      "name": "Geopolitical & Democratic Risk",
+      "description": "Monitoring threats to democratic institutions, electoral integrity, and the global order. This category has massive demand from civil society, journalism, and policy communities.",
+      "domains": [
+        {
+          "name": "Democratic Backsliding & Institutional Erosion",
+          "slug": "democracy-risk",
+          "fit_score": 9.0,
+          "rationale": "Democratic erosion is gradual, multi-dimensional, and hard to track day-to-day precisely because it operates through incremental institutional changes rather than dramatic events. A scored daily digest that flags court-packing, media capture, electoral rule changes, and civil society restrictions across countries would provide unprecedented real-time visibility into democratic health worldwide.",
+          "audience": [
+            "Democracy researchers and political scientists",
+            "International democracy support organizations (NED, IDEA, NDI, IRI)",
+            "Human rights organizations (Freedom House, Human Rights Watch, Amnesty)",
+            "Foreign affairs officials and diplomats",
+            "Investigative journalists covering governance",
+            "Constitutional law scholars",
+            "Philanthropic foundations funding democracy programs"
+          ],
+          "source_types": [
+            "V-Dem Institute democracy indices and alerts",
+            "Freedom House Freedom in the World reports and updates",
+            "IDEA Global State of Democracy reports",
+            "Constitutional court rulings and legislative tracker databases",
+            "OSCE/ODIHR election observation mission reports",
+            "Committee to Protect Journalists (press freedom incidents)",
+            "Transparency International corruption perception data",
+            "Parliament/legislature tracking systems",
+            "Civil society organization reports from 100+ countries",
+            "Academic journals (Journal of Democracy, Democratization)"
+          ],
+          "tag_taxonomy": [
+            "court-packing", "media-capture", "electoral-manipulation", "civil-society-restrictions",
+            "executive-overreach", "press-freedom", "judicial-independence", "opposition-suppression",
+            "corruption", "disinformation", "autocratization", "constitutional-crisis",
+            "protest-crackdown", "term-limits", "rule-of-law"
+          ],
+          "value_proposition": "V-Dem and Freedom House produce annual or periodic assessments. But democratic erosion happens daily -- a judge removed here, a media license revoked there, an election commission restructured. The daily digest format captures the incremental moves that annual indices miss, providing early warning before a country crosses a threshold.",
+          "market_validation": {
+            "existing_services": [
+              "V-Dem Institute (annual indices, academic-oriented)",
+              "Freedom House (annual reports, country-by-country)",
+              "Democracy Reporting International (project-based)",
+              "The Economist Intelligence Unit Democracy Index (annual)",
+              "CIVICUS Monitor (civil society space tracker)"
+            ],
+            "gap": "No daily intelligence product that synthesizes cross-country democratic developments with scoring and prioritization. Demand is enormous from the democracy support and foreign policy communities."
+          },
+          "example_stories": [
+            {
+              "title": "Georgian Parliament Passes 'Foreign Agent' Law Over Mass Protests",
+              "priority": "critical",
+              "composite_score": 8.7,
+              "tags": ["civil-society-restrictions", "autocratization", "protest-crackdown"]
+            },
+            {
+              "title": "Mexican President Proposes Constitutional Reform to Elect All Judges by Popular Vote",
+              "priority": "high",
+              "composite_score": 7.5,
+              "tags": ["judicial-independence", "constitutional-crisis", "executive-overreach"]
+            }
+          ]
+        },
+        {
+          "name": "Information Warfare & Influence Operations",
+          "slug": "info-warfare",
+          "fit_score": 8.5,
+          "rationale": "State-sponsored disinformation campaigns, coordinated inauthentic behavior, and AI-generated influence operations are accelerating. Tracking attribution, platform responses, and narrative evolution across campaigns requires exactly the kind of multi-source synthesis this infrastructure provides.",
+          "audience": [
+            "Platform trust & safety teams",
+            "Government counter-disinformation units",
+            "Election security officials",
+            "Academic researchers (Stanford Internet Observatory, DFRLab, Oxford Internet Institute)",
+            "Journalism and media literacy organizations",
+            "Intelligence community analysts"
+          ],
+          "source_types": [
+            "Platform transparency reports (Meta, X, Google, TikTok)",
+            "Stanford Internet Observatory analyses",
+            "Atlantic Council DFRLab investigations",
+            "EU DisinfoLab reports",
+            "ODNI/intelligence community assessments",
+            "Academic research on computational propaganda",
+            "Fact-checking organization databases (IFCN members)",
+            "Botometer and network analysis tools"
+          ],
+          "tag_taxonomy": [
+            "state-sponsored", "coordinated-inauthentic-behavior", "deepfake-campaign",
+            "election-interference", "narrative-warfare", "bot-network",
+            "platform-enforcement", "attribution", "ai-generated-content",
+            "foreign-influence", "domestic-disinfo", "media-manipulation"
+          ]
+        },
+        {
+          "name": "Geopolitical Flashpoints & Conflict Risk",
+          "slug": "conflict-risk",
+          "fit_score": 7.5,
+          "rationale": "While general geopolitical intelligence is well-served by existing outlets (Foreign Policy, War on the Rocks, IISS), a scored digest focused specifically on escalation indicators and conflict risk thresholds would be differentiated.",
+          "audience": [
+            "Foreign policy professionals",
+            "Defense analysts",
+            "Humanitarian organizations",
+            "Political risk consultants",
+            "Insurance underwriters (political risk)"
+          ],
+          "source_types": [
+            "International Crisis Group reports and CrisisWatch",
+            "ACLED conflict data",
+            "UN Security Council proceedings",
+            "OSINT from conflict zones",
+            "Satellite imagery analysis",
+            "Military movement tracking"
+          ],
+          "tag_taxonomy": [
+            "escalation-risk", "ceasefire", "military-buildup", "sanctions",
+            "proxy-conflict", "territorial-dispute", "refugee-crisis",
+            "peace-process", "arms-transfer", "war-crimes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity Threat Intelligence",
+      "description": "The cybersecurity industry already has a massive threat intelligence market, but most products are either raw indicator feeds or expensive enterprise platforms. A curated, scored daily digest fills a middle-market gap.",
+      "domains": [
+        {
+          "name": "Cyber Threat Daily Digest",
+          "slug": "cyber-threat",
+          "fit_score": 9.0,
+          "rationale": "CISOs and security teams are drowning in alerts and threat feeds. A curated, scored daily digest that synthesizes the most important vulnerabilities, campaigns, and policy developments is exactly what mid-market security teams need. The AI dossier's scoring system maps perfectly to CVSS scores, threat actor severity, and campaign sophistication.",
+          "audience": [
+            "CISOs and security leadership",
+            "SOC analysts and incident responders",
+            "Vulnerability management teams",
+            "Cybersecurity policy officials (CISA, ENISA, NCSC)",
+            "Cyber insurance underwriters",
+            "Board-level risk committees"
+          ],
+          "source_types": [
+            "NVD/CVE databases for vulnerability disclosures",
+            "CISA Known Exploited Vulnerabilities catalog",
+            "Vendor security advisories (Microsoft, Google, Apple, etc.)",
+            "Threat intelligence reports (Mandiant, CrowdStrike, Recorded Future)",
+            "Dark web monitoring feeds",
+            "OSINT from security researchers (Twitter/X, Mastodon)",
+            "Ransomware leak sites and extortion tracking",
+            "National CERT advisories",
+            "Cybersecurity policy and regulation updates"
+          ],
+          "tag_taxonomy": [
+            "zero-day", "ransomware", "apt", "supply-chain-attack", "critical-infrastructure",
+            "data-breach", "nation-state", "vulnerability", "exploit-in-wild",
+            "phishing-campaign", "ics-scada", "cloud-security", "identity",
+            "regulatory", "cyber-insurance", "incident-response"
+          ],
+          "value_proposition": "Security teams spend hours each morning triaging threat feeds. A pre-scored, pre-prioritized digest with briefings on the 3-4 most critical developments and a ticker of 5-6 additional items saves analyst time and ensures leadership has situational awareness without reading 50 alerts.",
+          "market_validation": {
+            "existing_services": [
+              "The Record by Recorded Future (news-style, no scoring)",
+              "SANS @RISK newsletter (weekly, technical focus)",
+              "Krebs on Security (single-author blog)",
+              "The Hacker News (aggregator, no prioritization)",
+              "Recorded Future intelligence cards (enterprise, $100K+/year)",
+              "CrowdStrike Falcon Intelligence (enterprise platform)"
+            ],
+            "gap": "Gap between free news aggregation and six-figure enterprise platforms. A $50-200/month scored daily digest for mid-market security teams."
+          }
+        }
+      ]
+    },
+    {
+      "id": "financial-economic-risk",
+      "name": "Financial & Economic Systemic Risk",
+      "description": "Tracking systemic risks to financial stability, supply chains, and macroeconomic resilience. The 2008 crisis and subsequent shocks demonstrated the need for better risk synthesis.",
+      "domains": [
+        {
+          "name": "Systemic Financial Risk",
+          "slug": "financial-systemic",
+          "fit_score": 8.0,
+          "rationale": "Financial stability risks emerge from the interaction of multiple signals: credit spreads, liquidity conditions, regulatory changes, geopolitical shocks, and contagion dynamics. A daily digest synthesizing across these dimensions serves risk managers, regulators, and institutional investors.",
+          "audience": [
+            "Central bank financial stability divisions",
+            "Macro-prudential regulators",
+            "Institutional investors and hedge funds",
+            "Bank risk management teams",
+            "Financial stability researchers (BIS, IMF, FSB)"
+          ],
+          "source_types": [
+            "Central bank financial stability reports and minutes",
+            "BIS quarterly reviews and working papers",
+            "IMF Global Financial Stability Report updates",
+            "CDS spreads, VIX, credit market indicators",
+            "Bank earnings and capital adequacy reports",
+            "Shadow banking and non-bank financial intermediation data",
+            "Stablecoin and DeFi protocol monitoring",
+            "FSOC and European Systemic Risk Board announcements"
+          ],
+          "tag_taxonomy": [
+            "liquidity-crisis", "credit-spreads", "bank-stress", "shadow-banking",
+            "stablecoin-risk", "defi-contagion", "sovereign-debt", "currency-crisis",
+            "rate-shock", "commercial-real-estate", "leverage", "margin-call",
+            "central-bank-policy", "regulatory-change", "systemic-risk"
+          ]
+        },
+        {
+          "name": "Global Supply Chain Risk",
+          "slug": "supply-chain",
+          "fit_score": 8.5,
+          "rationale": "Post-COVID supply chain disruptions, semiconductor shortages, Red Sea shipping diversions, and critical mineral dependencies have made supply chain intelligence a board-level concern. Daily monitoring of chokepoints, disruptions, and policy shifts (export controls, reshoring incentives) is high-demand.",
+          "audience": [
+            "Chief Supply Chain Officers",
+            "Procurement leaders",
+            "Trade policy officials",
+            "Logistics and shipping companies",
+            "Commodity traders",
+            "Industrial and manufacturing executives"
+          ],
+          "source_types": [
+            "Shipping and logistics data (AIS vessel tracking, port congestion)",
+            "PMI and manufacturing indices globally",
+            "Export control and sanctions announcements",
+            "Commodity price feeds",
+            "Semiconductor industry association data",
+            "Critical mineral supply reports",
+            "Trade agreement and tariff updates",
+            "Natural disaster and climate event monitoring",
+            "Labor dispute tracking at key facilities/ports"
+          ],
+          "tag_taxonomy": [
+            "semiconductor", "rare-earth", "shipping-disruption", "port-congestion",
+            "export-controls", "reshoring", "friend-shoring", "tariff",
+            "critical-mineral", "energy-supply", "food-security", "pharma-supply",
+            "single-point-of-failure", "inventory-crisis", "logistics"
+          ]
+        },
+        {
+          "name": "Crypto & DeFi Risk Monitor",
+          "slug": "crypto-defi-risk",
+          "fit_score": 7.5,
+          "rationale": "The crypto ecosystem produces daily regulatory actions, protocol exploits, stablecoin depegs, and market structure developments. The 2022 collapse sequence (Terra/Luna -> 3AC -> FTX) showed how contagion propagates. A scored digest focused on systemic risk rather than price action would be differentiated.",
+          "audience": [
+            "Crypto-focused institutional investors",
+            "DeFi protocol teams and DAOs",
+            "Crypto compliance officers",
+            "Financial regulators (SEC, CFTC, global equivalents)",
+            "Traditional finance institutions with crypto exposure"
+          ],
+          "source_types": [
+            "On-chain analytics (Chainalysis, Nansen, Dune)",
+            "DeFi protocol TVL and health metrics (DeFi Llama)",
+            "Stablecoin reserve attestations",
+            "Regulatory enforcement actions and guidance",
+            "Smart contract audit reports",
+            "Exchange proof-of-reserves data",
+            "Crypto litigation and bankruptcy proceedings"
+          ],
+          "tag_taxonomy": [
+            "stablecoin-risk", "defi-exploit", "regulatory-enforcement", "exchange-risk",
+            "smart-contract-vulnerability", "contagion", "tvl-decline", "bridge-hack",
+            "sec-action", "mev", "oracle-manipulation", "rug-pull"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "public-health",
+      "name": "Public Health Intelligence",
+      "description": "Beyond pandemics, public health encompasses ongoing crises that benefit from daily monitoring and expert synthesis.",
+      "domains": [
+        {
+          "name": "Antimicrobial Resistance (AMR)",
+          "slug": "amr-resistance",
+          "fit_score": 7.5,
+          "rationale": "AMR is described as a 'slow-motion pandemic' -- 1.27 million deaths annually, projected to rise to 10 million by 2050. Daily developments in resistance patterns, new antibiotics pipeline, stewardship policy, and agricultural use regulation are poorly synthesized for policymakers.",
+          "audience": [
+            "Public health officials",
+            "Infectious disease physicians",
+            "Pharmaceutical R&D leaders (antibiotic pipeline)",
+            "Agricultural policy regulators",
+            "WHO AMR focal points",
+            "Global health funders (Wellcome Trust, CARB-X, GARDP)"
+          ],
+          "source_types": [
+            "WHO GLASS surveillance data",
+            "CDC AR Threats reports",
+            "ECDC surveillance data",
+            "New antibiotic clinical trial registrations",
+            "Agricultural antibiotic use regulations",
+            "Hospital infection control reports",
+            "AMR research publications"
+          ],
+          "tag_taxonomy": [
+            "resistance-pattern", "new-antibiotic", "stewardship-policy", "agricultural-use",
+            "hospital-acquired", "surveillance-data", "pan-resistant", "phage-therapy",
+            "diagnostic-innovation", "incentive-mechanism", "pipeline"
+          ]
+        },
+        {
+          "name": "Mental Health & Social Crisis Monitor",
+          "slug": "mental-health-crisis",
+          "fit_score": 6.5,
+          "rationale": "Rising youth mental health crisis, social media impacts, loneliness epidemic, and substance abuse trends. More suited to weekly than daily cadence, but policy developments (Surgeon General advisories, platform regulation, school mental health programs) generate sufficient daily signal.",
+          "audience": [
+            "Public health officials",
+            "School administrators and education policymakers",
+            "Mental health advocacy organizations",
+            "Technology platform policy teams",
+            "Health insurance and managed care executives"
+          ],
+          "source_types": [
+            "CDC YRBS and surveillance data",
+            "Surgeon General advisories",
+            "State and federal mental health legislation",
+            "Platform safety and youth protection announcements",
+            "Mental health research publications",
+            "Substance abuse monitoring data (SAMHSA)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technology-innovation",
+      "name": "Technology & Innovation Tracking (Non-Risk)",
+      "description": "Moving beyond risk monitoring to opportunity tracking. The same infrastructure that scores threats can score breakthroughs, funding signals, and competitive developments.",
+      "domains": [
+        {
+          "name": "Quantum Computing & Post-Quantum Transition",
+          "slug": "quantum-computing",
+          "fit_score": 8.0,
+          "rationale": "Quantum computing is approaching a critical phase: error correction milestones, the NIST post-quantum cryptography migration deadline, and a startup funding boom. The audience needs daily synthesis of hardware breakthroughs, algorithm advances, standards timelines, and competitive dynamics (US/China/EU).",
+          "audience": [
+            "Quantum computing researchers and engineers",
+            "CISO/security teams (post-quantum migration)",
+            "Venture capitalists and quantum startup ecosystem",
+            "Government science and technology policy officials",
+            "Pharmaceutical and materials science R&D (quantum applications)",
+            "National security professionals (cryptographic implications)"
+          ],
+          "source_types": [
+            "arXiv quantum-ph preprints",
+            "Nature, Science, Physical Review Letters publications",
+            "Quantum hardware company announcements (IBM, Google, IonQ, Quantinuum, PsiQuantum)",
+            "NIST post-quantum cryptography standards updates",
+            "Patent filings in quantum computing",
+            "Government quantum initiative funding (NQI, EU Quantum Flagship)",
+            "Quantum startup funding rounds",
+            "Benchmarking data (quantum volume, logical qubit counts)"
+          ],
+          "tag_taxonomy": [
+            "error-correction", "logical-qubit", "post-quantum-crypto", "quantum-advantage",
+            "superconducting", "trapped-ion", "photonic", "neutral-atom",
+            "quantum-algorithm", "quantum-network", "nist-standard", "hardware-milestone",
+            "quantum-startup", "us-china-competition", "quantum-sensing"
+          ]
+        },
+        {
+          "name": "Clean Energy Transition",
+          "slug": "clean-energy",
+          "fit_score": 8.5,
+          "rationale": "The energy transition generates massive daily signal: solar/wind deployment data, battery technology breakthroughs, grid storage milestones, hydrogen economy developments, EV adoption rates, and the policy/subsidy landscape (IRA implementation, EU Green Deal, China industrial policy). High commercial value for investors and industry.",
+          "audience": [
+            "Clean energy investors and project developers",
+            "Utility executives and grid operators",
+            "Energy policy officials",
+            "Battery and EV manufacturers",
+            "Oil and gas companies managing transition",
+            "ESG fund managers"
+          ],
+          "source_types": [
+            "IEA and IRENA data and reports",
+            "BloombergNEF energy transition data",
+            "DOE/ARPA-E funding announcements",
+            "Solar and wind installation statistics",
+            "Battery cost and performance benchmarks",
+            "Grid interconnection queues",
+            "EV sales data by market",
+            "Hydrogen project pipeline tracking",
+            "Carbon pricing and emissions trading data",
+            "Energy company earnings and capex announcements"
+          ],
+          "tag_taxonomy": [
+            "solar", "wind", "battery-storage", "hydrogen", "ev-adoption",
+            "grid-modernization", "nuclear-renaissance", "carbon-capture",
+            "ira-implementation", "permitting-reform", "critical-minerals",
+            "utility-scale", "distributed-generation", "energy-storage",
+            "green-hydrogen", "offshore-wind"
+          ],
+          "value_proposition": "BloombergNEF costs $20K+/year. A $100-300/month daily scored digest capturing the same breadth of developments in an accessible format serves the long tail of clean energy professionals, investors, and policymakers."
+        },
+        {
+          "name": "Space Economy & Exploration",
+          "slug": "space-economy",
+          "fit_score": 7.0,
+          "rationale": "The commercial space industry is booming: launch cadence records, satellite constellation deployments, lunar programs, space debris concerns, spectrum allocation battles, and national space policy. Serves both the industry and the growing space investor community.",
+          "audience": [
+            "Space industry executives and engineers",
+            "Space-focused investors and analysts",
+            "Government space agency officials",
+            "Satellite communications companies",
+            "Space debris and sustainability researchers",
+            "Defense/intelligence space operations"
+          ],
+          "source_types": [
+            "Launch manifests and outcomes (SpaceX, Rocket Lab, etc.)",
+            "FCC/ITU spectrum filings",
+            "NASA, ESA, JAXA, CNSA mission updates",
+            "Space startup funding rounds",
+            "Space debris tracking data (18th Space Control Squadron)",
+            "Congressional space authorization and appropriations",
+            "Patent filings in propulsion, manufacturing, communications"
+          ]
+        },
+        {
+          "name": "Biotech & Life Sciences Breakthroughs",
+          "slug": "biotech-breakthroughs",
+          "fit_score": 8.0,
+          "rationale": "CRISPR therapeutics, gene therapy approvals, longevity research, synthetic biology, and the mRNA platform expansion beyond COVID create a rich daily signal. Pharmaceutical and biotech investors need synthesis across clinical trials, regulatory decisions, and basic science breakthroughs.",
+          "audience": [
+            "Biotech and pharma investors",
+            "Life sciences R&D executives",
+            "Regulatory affairs professionals (FDA, EMA)",
+            "Clinical researchers",
+            "Bioethics scholars",
+            "Patient advocacy organizations"
+          ],
+          "source_types": [
+            "ClinicalTrials.gov new registrations and results",
+            "FDA/EMA approval decisions and advisory committee meetings",
+            "Nature Medicine, NEJM, Lancet, Cell publications",
+            "bioRxiv preprints in genomics, synthetic biology",
+            "Biotech company pipeline updates and earnings",
+            "Patent filings in gene therapy, CRISPR, mRNA",
+            "NIH and BARDA funding announcements",
+            "Bioethics journal publications and policy statements"
+          ],
+          "tag_taxonomy": [
+            "crispr", "gene-therapy", "mrna-platform", "cell-therapy",
+            "synthetic-biology", "longevity", "fda-approval", "clinical-trial",
+            "bioethics", "rare-disease", "oncology", "neuroscience",
+            "drug-pricing", "biosimilar", "companion-diagnostic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industry-specific-compliance",
+      "name": "Industry-Specific Regulatory & Compliance Intelligence",
+      "description": "Highly monetizable verticals where professionals need daily monitoring of regulatory changes, enforcement actions, and compliance developments.",
+      "domains": [
+        {
+          "name": "Pharmaceutical Regulatory Intelligence",
+          "slug": "pharma-regulatory",
+          "fit_score": 8.5,
+          "rationale": "Pharma regulatory affairs teams monitor FDA, EMA, PMDA, and 50+ national agencies daily. Approval decisions, guidance documents, inspection findings, and enforcement actions directly impact billion-dollar product portfolios. Currently served by expensive enterprise platforms (Cortellis, Pharmaprojects) or manual monitoring.",
+          "audience": [
+            "Regulatory affairs directors and VPs",
+            "Pharmaceutical executives",
+            "Medical affairs teams",
+            "Healthcare attorneys",
+            "Pharma investors and analysts"
+          ],
+          "source_types": [
+            "FDA Federal Register notices, guidance documents, warning letters",
+            "EMA CHMP opinions and referrals",
+            "ICH guideline updates",
+            "National regulatory agency decisions globally",
+            "Drug safety communications and REMS updates",
+            "GMP inspection findings",
+            "Patent litigation outcomes (Hatch-Waxman, BPCIA)"
+          ],
+          "value_proposition": "Regulatory affairs professionals currently spend 2-3 hours daily monitoring agency websites. A scored digest cuts this to 10 minutes. At $200-500/month per seat, with 50,000+ regulatory affairs professionals in the US alone, this is a $100M+ market opportunity."
+        },
+        {
+          "name": "Fintech & Banking Compliance",
+          "slug": "fintech-compliance",
+          "fit_score": 8.0,
+          "rationale": "The pace of financial regulation is accelerating: open banking mandates, BNPL regulation, crypto compliance (MiCA, SAB 121), AI in lending fairness requirements, sanctions compliance. Compliance teams need daily synthesis.",
+          "audience": [
+            "Chief Compliance Officers",
+            "Fintech founders and product teams",
+            "Bank regulatory affairs teams",
+            "Financial regulators",
+            "Legal counsel specializing in financial services"
+          ],
+          "source_types": [
+            "Federal Reserve, OCC, FDIC, CFPB releases",
+            "SEC and CFTC enforcement actions and guidance",
+            "European Banking Authority and ECB publications",
+            "State financial regulator actions",
+            "Consent orders and enforcement actions",
+            "Congressional financial services committee hearings",
+            "Industry comment letters on proposed rules"
+          ]
+        },
+        {
+          "name": "Data Privacy & Protection Regulatory Tracker",
+          "slug": "privacy-regulation",
+          "fit_score": 8.5,
+          "rationale": "With GDPR, US state privacy laws (19+ states), LGPD, PIPL, and dozens of new privacy frameworks worldwide, privacy professionals face a compliance fragmentation nightmare. Daily regulatory intelligence is essential and the audience is large and well-funded.",
+          "audience": [
+            "Chief Privacy Officers and Data Protection Officers",
+            "Privacy counsel and law firms",
+            "AdTech and data broker companies",
+            "Technology company compliance teams",
+            "Privacy-focused investors and startups"
+          ],
+          "source_types": [
+            "DPA enforcement decisions (200+ authorities worldwide)",
+            "State and federal privacy legislation tracker",
+            "CJEU and national court privacy rulings",
+            "Standard contractual clauses and transfer mechanism updates",
+            "Cookie and consent enforcement actions",
+            "Children's privacy (COPPA, Age Appropriate Design Code) updates",
+            "Industry self-regulatory body decisions",
+            "IAPP publications and research"
+          ],
+          "tag_taxonomy": [
+            "gdpr-enforcement", "us-state-privacy", "cross-border-transfer",
+            "consent-mechanism", "children-privacy", "adtech", "data-broker",
+            "biometric-data", "health-data", "ai-privacy", "right-to-delete",
+            "breach-notification", "dpa-decision", "class-action"
+          ],
+          "value_proposition": "The IAPP estimates 500,000+ privacy professionals globally. OneTrust and similar platforms focus on compliance tooling, not intelligence. A $100-200/month scored daily privacy digest would serve this audience directly."
+        }
+      ]
+    },
+    {
+      "id": "social-cultural",
+      "name": "Social & Cultural Intelligence",
+      "description": "Tracking societal shifts that don't fit neatly into risk or technology categories but where daily synthesis has high value.",
+      "domains": [
+        {
+          "name": "Labor Market Transformation",
+          "slug": "labor-market",
+          "fit_score": 7.5,
+          "rationale": "AI displacement, remote work evolution, gig economy regulation, skills gap data, immigration policy impacts on labor supply, and union organizing trends. Your existing AI dossier already covers the AI-labor angle -- this would expand it to the full labor market picture.",
+          "audience": [
+            "HR executives and CHROs",
+            "Labor economists and workforce researchers",
+            "Policy officials (Dept of Labor, etc.)",
+            "Workforce development organizations",
+            "Union leadership and labor organizers",
+            "Education and training providers"
+          ],
+          "source_types": [
+            "BLS employment data and JOLTS",
+            "Indeed, LinkedIn, and Glassdoor hiring data",
+            "NLRB filings and union election results",
+            "State and federal labor legislation",
+            "Skills demand data from job postings",
+            "Remote work and return-to-office tracking",
+            "Gig economy regulatory actions",
+            "Automation and AI displacement research"
+          ]
+        },
+        {
+          "name": "Education Disruption & EdTech",
+          "slug": "education-disruption",
+          "fit_score": 6.5,
+          "rationale": "AI in education, learning model transformation, credential disruption, student debt policy, and K-12 reform generate moderate daily signal. Higher fit during active policy seasons.",
+          "audience": [
+            "Education administrators and policymakers",
+            "EdTech investors and founders",
+            "Faculty and academic leadership",
+            "Education researchers"
+          ]
+        },
+        {
+          "name": "Media Ecosystem & Information Landscape",
+          "slug": "media-ecosystem",
+          "fit_score": 7.0,
+          "rationale": "The collapse of traditional media business models, rise of creator economy, AI-generated content explosion, platform algorithm changes, and journalism sustainability. Meta for understanding how information itself flows.",
+          "audience": [
+            "Media executives and publishers",
+            "Journalism funders and foundations",
+            "Platform policy teams",
+            "Communications professionals",
+            "Media researchers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative-unexpected",
+      "name": "Creative & Unexpected Deployment Areas",
+      "description": "Domains where a scored daily digest would be novel and potentially viral or high-engagement, even if the risk framing doesn't apply.",
+      "domains": [
+        {
+          "name": "Legislative & Policy Tracker (Multi-jurisdiction)",
+          "slug": "legislative-tracker",
+          "fit_score": 9.0,
+          "rationale": "Think of your state AI law tracker in the current dossier -- but applied to ANY policy area. Gun legislation across 50 states. Housing policy. Healthcare reform. Immigration. The infrastructure is perfectly suited to tracking legislative activity across jurisdictions, scoring bills by likelihood of passage, and briefing on the most significant movements.",
+          "audience": [
+            "Lobbyists and government affairs professionals",
+            "Policy advocacy organizations",
+            "Trade associations",
+            "Law firms with legislative practices",
+            "Journalists covering policy"
+          ],
+          "source_types": [
+            "State legislature tracking APIs (LegiScan, OpenStates)",
+            "Congressional Record and committee schedules",
+            "Bill text analysis and comparison tools",
+            "Lobbying disclosure filings",
+            "Committee hearing transcripts",
+            "Governor's office signing/veto announcements",
+            "Think tank policy analyses"
+          ],
+          "value_proposition": "Current legislative tracking tools (FiscalNote, Quorum) are expensive ($10K+/year) enterprise platforms. A domain-specific scored daily digest at $100-200/month would serve individual lobbyists, small advocacy orgs, and journalists. The template is infinitely replicable: gun policy tracker, housing policy tracker, immigration policy tracker, etc.",
+          "market_validation": {
+            "existing_services": [
+              "FiscalNote ($10K+/year, enterprise)",
+              "Quorum (enterprise, $15K+/year)",
+              "LegiScan (raw data, no synthesis)",
+              "GovTrack (federal only, no scoring)"
+            ],
+            "gap": "Massive gap between raw legislative data and expensive enterprise platforms. A scored digest is the missing middle."
+          }
+        },
+        {
+          "name": "Scientific Discovery Feed",
+          "slug": "science-daily",
+          "fit_score": 7.5,
+          "rationale": "A daily digest of the most significant scientific papers across disciplines (or within one discipline), scored by novelty, citation potential, and practical implications. Like a human-curated, opinionated Nature News -- scored and prioritized. Could focus on a specific field (materials science, neuroscience, ecology) or go cross-disciplinary.",
+          "audience": [
+            "Research scientists wanting cross-disciplinary awareness",
+            "Science journalists",
+            "R&D executives",
+            "Science funding agencies",
+            "Science-curious general audience"
+          ],
+          "source_types": [
+            "arXiv, bioRxiv, chemRxiv, medRxiv preprints",
+            "Nature, Science, PNAS, Cell, PRL publications",
+            "Retraction Watch (research integrity)",
+            "Major grant announcements (NIH, NSF, ERC)",
+            "Conference proceedings and keynotes",
+            "Patent filings connected to research"
+          ]
+        },
+        {
+          "name": "Art Market & Cultural Economy",
+          "slug": "art-market",
+          "fit_score": 5.5,
+          "rationale": "Auction results, gallery openings, museum acquisitions, art market trends, cultural policy changes, and the AI art controversy. Niche but passionate audience. Lower daily signal than other domains.",
+          "audience": [
+            "Art collectors and advisors",
+            "Gallery owners and dealers",
+            "Museum curators and directors",
+            "Art investors and funds",
+            "Cultural policy officials"
+          ]
+        },
+        {
+          "name": "Sports Analytics & Transfer Intelligence",
+          "slug": "sports-intelligence",
+          "fit_score": 6.0,
+          "rationale": "Transfer rumors scored by reliability, injury updates scored by fantasy impact, analytics breakthroughs, sports betting regulatory changes, and league policy developments. High engagement potential. Could be sport-specific (football/soccer transfers, NBA analytics).",
+          "audience": [
+            "Sports analytics professionals",
+            "Fantasy sports participants",
+            "Sports journalists",
+            "Sports betting operators and regulators",
+            "Team front office professionals"
+          ],
+          "note": "The quip system from the AI dossier would shine here. Highest engagement potential of any domain."
+        },
+        {
+          "name": "Open Source Intelligence (OSINT) Daily Briefing",
+          "slug": "osint-briefing",
+          "fit_score": 8.0,
+          "rationale": "Synthesizing the most significant OSINT findings from satellite imagery analysts, flight trackers, ship trackers, social media monitors, and document leaks. The OSINT community on Twitter/X is massive and active but lacks a curated, scored daily synthesis.",
+          "audience": [
+            "OSINT researchers and analysts",
+            "Journalists using open source methods",
+            "Think tank analysts",
+            "Defense and intelligence professionals",
+            "Academic researchers"
+          ],
+          "source_types": [
+            "Satellite imagery analysis (Planet, Maxar, Sentinel)",
+            "ADS-B flight tracking data",
+            "AIS maritime tracking data",
+            "Social media geolocation and verification",
+            "Corporate registry and beneficial ownership data",
+            "Sanctions and entity screening databases",
+            "Document leak analysis",
+            "Bellingcat and other OSINT organization outputs"
+          ]
+        },
+        {
+          "name": "Longevity & Aging Science",
+          "slug": "longevity-science",
+          "fit_score": 7.0,
+          "rationale": "The longevity field is exploding with funding (Altos Labs, Calico, Unity Biotechnology), clinical trials, and regulatory developments. A passionate community of researchers, investors, and biohackers would consume a daily scored digest. The FDA's evolving stance on aging-as-indication creates unique regulatory tracking needs.",
+          "audience": [
+            "Longevity researchers",
+            "Biotech investors (longevity-focused)",
+            "Gerontologists and geriatricians",
+            "Biohacker community",
+            "Health policy officials (aging demographics)"
+          ],
+          "source_types": [
+            "Clinical trial results (senolytics, epigenetic reprogramming)",
+            "Longevity biotech funding announcements",
+            "FDA guidance on aging-related endpoints",
+            "Nature Aging, GeroScience publications",
+            "Biological age clock developments",
+            "Caloric restriction and rapamycin research",
+            "Demographic and actuarial data"
+          ]
+        }
+      ]
+    }
+  ],
+  "deployment_tiers": {
+    "description": "Recommended prioritization for deploying the infrastructure to new domains, based on fit score, market opportunity, and infrastructure reusability.",
+    "tier_1_immediate": {
+      "label": "Highest fit, deploy next",
+      "domains": [
+        {
+          "slug": "pandemic-biosecurity",
+          "name": "Pandemic & Biosecurity Risk",
+          "fit_score": 9.5,
+          "reasoning": "Closest analog to current AI safety dossier. Existential risk framing, expert audience, policy relevance, massive societal value. The COVID information failure demonstrates clear need."
+        },
+        {
+          "slug": "democracy-risk",
+          "name": "Democratic Backsliding & Institutional Erosion",
+          "fit_score": 9.0,
+          "reasoning": "Enormous underserved audience in democracy support community. Daily granularity fills gap left by annual indices. High social impact and philanthropic funding potential."
+        },
+        {
+          "slug": "cyber-threat",
+          "name": "Cybersecurity Threat Intelligence",
+          "fit_score": 9.0,
+          "reasoning": "Largest commercial market opportunity. Clear willingness to pay. Gap between free news and $100K+ enterprise platforms. Mid-market security teams are underserved."
+        },
+        {
+          "slug": "legislative-tracker",
+          "name": "Legislative & Policy Tracker",
+          "fit_score": 9.0,
+          "reasoning": "The dossier's state AI law tracking proves the concept. Infinitely replicable to any policy domain. Gap between raw data and expensive enterprise platforms."
+        }
+      ]
+    },
+    "tier_2_high_value": {
+      "label": "Strong fit, deploy after tier 1",
+      "domains": [
+        {
+          "slug": "nuclear-risk",
+          "name": "Nuclear Risk & Strategic Stability",
+          "fit_score": 8.5
+        },
+        {
+          "slug": "info-warfare",
+          "name": "Information Warfare & Influence Operations",
+          "fit_score": 8.5
+        },
+        {
+          "slug": "supply-chain",
+          "name": "Global Supply Chain Risk",
+          "fit_score": 8.5
+        },
+        {
+          "slug": "clean-energy",
+          "name": "Clean Energy Transition",
+          "fit_score": 8.5
+        },
+        {
+          "slug": "pharma-regulatory",
+          "name": "Pharmaceutical Regulatory Intelligence",
+          "fit_score": 8.5
+        },
+        {
+          "slug": "privacy-regulation",
+          "name": "Data Privacy & Protection Regulatory Tracker",
+          "fit_score": 8.5
+        }
+      ]
+    },
+    "tier_3_emerging": {
+      "label": "Good fit, market validation needed",
+      "domains": [
+        {
+          "slug": "climate-tipping",
+          "name": "Climate Tipping Points & Extreme Events",
+          "fit_score": 8.0
+        },
+        {
+          "slug": "quantum-computing",
+          "name": "Quantum Computing & Post-Quantum Transition",
+          "fit_score": 8.0
+        },
+        {
+          "slug": "biotech-breakthroughs",
+          "name": "Biotech & Life Sciences Breakthroughs",
+          "fit_score": 8.0
+        },
+        {
+          "slug": "fintech-compliance",
+          "name": "Fintech & Banking Compliance",
+          "fit_score": 8.0
+        },
+        {
+          "slug": "financial-systemic",
+          "name": "Systemic Financial Risk",
+          "fit_score": 8.0
+        },
+        {
+          "slug": "osint-briefing",
+          "name": "OSINT Daily Briefing",
+          "fit_score": 8.0
+        }
+      ]
+    }
+  },
+  "cross_cutting_insights": {
+    "platform_opportunity": "The infrastructure is not just replicable -- it's a platform. The JSON schema, scoring system, tag taxonomy, and lead/ticker structure are domain-agnostic. The primary adaptation required for each new domain is: (1) source configuration, (2) tag taxonomy definition, (3) scoring calibration, and (4) editorial voice/quip style tuning.",
+    "multi_dossier_bundle": "A 'risk dashboard' product bundling 3-4 dossiers (e.g., AI + Pandemic + Nuclear + Democratic) would serve the existential risk and global catastrophic risk community directly. Organizations like the Centre for the Study of Existential Risk (CSER), Future of Humanity Institute, and Open Philanthropy already monitor across these domains manually.",
+    "monetization_models": [
+      {
+        "model": "Freemium daily email",
+        "description": "Free headline + summary, paid full briefings and archive access",
+        "price_range": "$10-30/month individual"
+      },
+      {
+        "model": "Professional subscription",
+        "description": "Full daily digest with API access to JSON data",
+        "price_range": "$100-300/month"
+      },
+      {
+        "model": "Enterprise/institutional",
+        "description": "Custom scoring, private source integration, team access, Slack/Teams integration",
+        "price_range": "$500-2000/month"
+      },
+      {
+        "model": "API-as-a-service",
+        "description": "Other products and dashboards consume the scored JSON feed",
+        "price_range": "Usage-based pricing"
+      }
+    ],
+    "technical_adaptations_needed": [
+      "Source plugin architecture -- each domain needs different scrapers/API integrations",
+      "Configurable scoring weights per domain (a CVSS-mapped score for cyber vs. a policy-impact score for legislation)",
+      "Domain-specific tag taxonomies (could be stored as JSON config per dossier instance)",
+      "Tunable editorial voice (cybersecurity audience expects different tone than democracy researchers)",
+      "Multi-language support for global domains (democracy backsliding, pandemic surveillance)"
+    ]
+  }
+}
