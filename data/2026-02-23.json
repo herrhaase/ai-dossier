@@ -1,0 +1,156 @@
+{
+  "date": "2026-02-23",
+  "date_human": "23rd Feb 2026",
+  "headline": "61 Privacy Regulators Unite Against AI Deepfakes",
+  "summary": "Sixty-one data protection authorities worldwide issue a joint statement warning AI companies about non-consensual deepfake imagery, while state AI legislation surges with 78 chatbot bills across 27 states. A detailed investor analysis warns agentic AI could trigger a white-collar employment crisis within two years, as Accenture ties promotions to AI adoption, signaling a labor shift.",
+  "leads": [
+    {
+      "title": "Global joint statement by data protection and privacy authorities on AI-generated imagery",
+      "source": "Office of the Privacy Commissioner of Canada",
+      "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2026/nr-c_260223/",
+      "composite_score": 8.5,
+      "tags": [
+        "privacy",
+        "surveillance",
+        "regulation",
+        "ethics"
+      ],
+      "one_liner": "Sixty-one data protection authorities across four continents issue a joint statement declaring that non-consensual AI-generated intimate imagery violates existing privacy laws and signaling coordinated enforcement.",
+      "briefing": "The statement, coordinated by the Global Privacy Assembly's enforcement working group, represents an unprecedented global regulatory consensus on AI-generated content. It specifically targets companies whose systems enable creation of sexualized deepfakes, with xAI's Grok system facing investigations in multiple jurisdictions. The non-binding statement signals that enforcement under existing data protection frameworks -- not new AI-specific laws -- may be the fastest path to accountability for AI imagery harms. This coordinated move across 61 jurisdictions creates significant compliance pressure even without formal legislative mandates.",
+      "priority": "critical",
+      "sentiment": "positive",
+      "intensity": 1,
+      "quip": "coordination actually happening for once"
+    },
+    {
+      "title": "The Global Intelligence Crisis: The Rise of Agentic AI",
+      "source": "Alap Shah (Substack)",
+      "url": "https://alapshah1.substack.com/p/the-global-intelligence-crisis",
+      "composite_score": 7.8,
+      "tags": [
+        "labor",
+        "economics",
+        "agents",
+        "x-risk"
+      ],
+      "one_liner": "Veteran AI investor argues agentic AI is a near-direct substitute for human cognitive labor and could trigger a financial crisis within two years through mass white-collar job displacement.",
+      "briefing": "Alap Shah, who co-founded AI financial search engine Sentieo (sold for $200M+), draws on METR data showing autonomous AI task duration doubles every six to seven months -- with current models executing 14.5 hours of continuous work unaided, projecting to a full month by mid-2028. He documents stagnant core white-collar employment since 2023 despite 11% real GDP growth, and identifies five economic contagion loops: no natural brake on AI improvement, disproportionate spending damage (top 20% earners drive 65% of consumer spending), intermediation layer collapse in consulting and finance, $2.5 trillion in leveraged buyout debt underwritten on obsolete productivity assumptions, and fiscal inversion as revenue declines while transfer payments surge. The piece gains weight from CEO warnings it cites: Dario Amodei (Anthropic) warning AI could eliminate half of all entry-level white-collar jobs with unemployment hitting 10-20%, and Mustafa Suleyman (Microsoft AI) stating most white-collar tasks will be fully automated within 12-18 months. Part one of a three-part series.",
+      "priority": "high",
+      "sentiment": "negative",
+      "intensity": 2,
+      "quip": "the economic shoe everyone watches but nobody catches"
+    },
+    {
+      "title": "Proposed State AI Law Update: February 23, 2026",
+      "source": "Troutman Pepper Locke",
+      "url": "https://www.jdsupra.com/legalnews/proposed-state-ai-law-update-february-6622374/",
+      "composite_score": 7,
+      "tags": [
+        "regulation",
+        "us-policy",
+        "governance"
+      ],
+      "one_liner": "Virginia's AI Chatbots and Minors Act passes the Senate 39-1, Florida's AI Bill of Rights clears Appropriations unanimously, and chatbot bills cross chambers in four states in a single week.",
+      "briefing": "The pace of state AI legislation is accelerating faster than many industry observers predicted. Virginia's SB 796 addresses suicidal ideation in chatbot interactions and incident reporting for platforms with 500,000+ monthly active users. Florida's AI Bill of Rights (S 482) passing unanimously suggests bipartisan momentum even in states traditionally skeptical of regulation. With the Trump administration's executive order threatening to preempt state AI laws, this week's legislative sprint may represent states racing to establish frameworks before federal intervention.",
+      "priority": "high",
+      "sentiment": "positive",
+      "intensity": 1,
+      "quip": "democracy speedrunning AI governance apparently"
+    },
+    {
+      "title": "Last year, Accenture trained 550,000 workers in AI -- now it's warning senior staff to use it or don't get promoted",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/02/23/last-year-accenture-trained-550000-staff-use-ai-now-promotions-hinge-on-putting-that-into-practice/",
+      "composite_score": 7.2,
+      "tags": [
+        "labor",
+        "big-tech",
+        "agents"
+      ],
+      "one_liner": "Accenture makes AI tool usage a requirement for promotions among senior staff, monitoring weekly logins and treating adoption as a visible input to talent discussions.",
+      "briefing": "This marks a shift from AI training as optional upskilling to AI proficiency as a career gatekeeper. Accenture is not alone -- KPMG, Ring, and Meta are similarly tying AI competency to employee advancement and performance evaluations. The policy has implications for AI safety: when promotion depends on AI adoption, workers face pressure to trust AI outputs rather than critically evaluate them. The trend signals that enterprise AI governance must now account for organizational incentive structures that may discourage human oversight.",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "intensity": 0,
+      "quip": "corporate AI adoption goes brrrr"
+    }
+  ],
+  "ticker": [
+    {
+      "title": "International Data Protection Authorities issue joint statement on privacy risks of AI-generated imagery",
+      "source": "UK Information Commissioner's Office",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/02/international-data-protection-authorities-issue-joint-statement-on-privacy-risks-of-ai-generated-imagery/",
+      "composite_score": 7.5,
+      "tags": [
+        "privacy",
+        "regulation",
+        "eu"
+      ],
+      "one_liner": "The UK ICO joins 60 counterparts in warning that AI systems generating realistic images of identifiable individuals without consent pose serious privacy risks, especially to children.",
+      "sentiment": "positive",
+      "intensity": 1,
+      "quip": "privacy authorities finally coordinating globally"
+    },
+    {
+      "title": "Ctrl+AI+Reg - 23 February 2026",
+      "source": "Ctrl+AI+Reg Newsletter",
+      "url": "https://techieray.substack.com/p/ctrlaireg-23-february-2026",
+      "composite_score": 6,
+      "tags": [
+        "regulation",
+        "governance",
+        "global-south"
+      ],
+      "one_liner": "The AI regulation newsletter covers the New Delhi Declaration endorsed by 88 countries at India's AI Summit, emphasizing international collaboration and trustworthy AI frameworks.",
+      "sentiment": "positive",
+      "intensity": 1,
+      "quip": "88 countries agreeing on anything impressive"
+    },
+    {
+      "title": "Frontier AI Risk Management Framework in Practice",
+      "source": "arXiv",
+      "url": "https://arxiv.org/html/2602.14457v1",
+      "composite_score": 6.5,
+      "tags": [
+        "alignment",
+        "evals",
+        "frontier-models",
+        "research"
+      ],
+      "one_liner": "Shanghai AI Laboratory researchers evaluate frontier LLM safety across five critical dimensions -- cyber offense, persuasion, deception, uncontrolled R&D, and self-replication -- finding concerning capabilities but significant limitations in multi-stage attacks.",
+      "sentiment": "positive",
+      "intensity": 2,
+      "quip": "actual rigorous frontier model safety evaluation"
+    },
+    {
+      "title": "Fundamental Limits of Black-Box Safety Evaluation",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2602.16984",
+      "composite_score": 6.8,
+      "tags": [
+        "evals",
+        "alignment",
+        "research"
+      ],
+      "one_liner": "A new paper proves that no black-box evaluator can reliably estimate deployment risk for AI models with latent context-conditioned policies, establishing fundamental information-theoretic barriers to safety testing.",
+      "sentiment": "negative",
+      "intensity": 2,
+      "quip": "safety evaluation fundamentally impossible? cool cool"
+    },
+    {
+      "title": "Intent Laundering: AI Safety Datasets Are Not What They Seem",
+      "source": "arXiv",
+      "url": "https://arxiv.org/html/2602.16729v1",
+      "composite_score": 7,
+      "tags": [
+        "evals",
+        "alignment",
+        "research"
+      ],
+      "one_liner": "Researchers show that removing obvious triggering cues from safety benchmarks while preserving malicious intent causes attack success rates to jump from 5-14% to 79-87%, exposing major flaws in current safety evaluation methods.",
+      "sentiment": "negative",
+      "intensity": 2,
+      "quip": "safety benchmarks are security theater apparently"
+    }
+  ]
+}
